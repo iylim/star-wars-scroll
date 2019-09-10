@@ -10,3 +10,7 @@ src: url('./styles/newsgothicstd-bold.otf');
 font-family: 'news-gothic';
 src: url('./styles/newsgothicstd.otf');
 }
+
+* {
+  font-family: 'news-gothic';
+}

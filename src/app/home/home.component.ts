@@ -18,4 +18,4 @@ export class HomeComponent implements OnInit {
       this.films$ = films;
     }); 
   }
-
+}
