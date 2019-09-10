@@ -1,0 +1,21 @@
+
+@font-face {
+    font-family: 'starwars';
+    src: url('../styles/STARWARS.woff') format('woff');
+}
+@font-face {
+  font-family: 'news-gothic-bold';
+  src: url('../styles/newsgothicstd-bold.otf');
+}
+@font-face {
+  font-family: 'news-gothic';
+  src: url('../styles/newsgothicstd.otf');
+}
+
+* {
+  font-family: 'news-gothic';
+}
+
+h1 {
+  font-family: 'starwars';
+}
