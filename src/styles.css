@@ -14,3 +14,7 @@ src: url('./styles/newsgothicstd.otf');
 * {
   font-family: 'news-gothic';
 }
+
+html {
+  background: url('https://wallpapercave.com/wp/wp3376969.jpg');
+}

@@ -1,9 +1,7 @@
-@import '../../styles.css';
-
-
 h1 {
   font-family: 'starwars';
   text-align: center;
+  color: #fef;
 }
 
 .films {
