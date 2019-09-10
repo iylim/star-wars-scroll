@@ -1,6 +1,6 @@
 # Star Wars Scroll
 
-[Visit Site](https://star-wars-scroll.netlify.com )
+[Visit Site](https://star-wars-scroll.netlify.com)
 
 ## Project overview
 This is an application made with Angular and the SW api to create the opening scroll credits for each Star Wars movie.

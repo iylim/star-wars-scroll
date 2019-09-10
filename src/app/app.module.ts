@@ -3,13 +3,15 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { FilmSelect } from './film-select/film-select.component';
+import { HomeComponent } from './home/home.component';
+import { ScrollComponent } from './scroll/scroll.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    FilmSelect
+    HomeComponent,
+    ScrollComponent
   ],
   imports: [
     BrowserModule,
