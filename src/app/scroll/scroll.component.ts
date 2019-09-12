@@ -6,7 +6,7 @@ import { Component, Input, OnChanges } from '@angular/core';
   styleUrls: ['./scroll.component.css']
 })
 export class ScrollComponent implements OnChanges {
-  @Input() selected:object;
+  @Input() selected;
 
   constructor() {
   }
