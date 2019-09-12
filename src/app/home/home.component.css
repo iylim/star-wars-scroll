@@ -1,5 +1,7 @@
 .home {
   z-index: 10;
+  width: 100%;
+  display: flex;
 }
 
 h1 {
@@ -10,8 +12,7 @@ h1 {
 
 .films {
   display: inline-flex;
-  margin: auto;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
 }
 
