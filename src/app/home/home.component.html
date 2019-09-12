@@ -1,5 +1,10 @@
-<h1>Select a Film</h1>
-<div *ngFor='let film of films$' class='films'>
-  <button class='button'>{{ film.title }}</button>
+<div class="home">
+  <h1>Select a Film</h1>
+  <div *ngFor='let film of films$' class='films'>
+    <button (click)="handleClick(film)" class='button'>{{ film.title }}</button>
+  </div>
 </div>
-<!-- <app-scroll [film]="film"></app-scroll> -->
+<ng-container *ngIf="selected">
+  <app-scroll  [selected]="selected" ></app-scroll>
+</ng-container>
+

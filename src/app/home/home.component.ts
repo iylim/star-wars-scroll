@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { Film } from '../film.model';
 import { DataService } from '../data.service';
 
 @Component({
@@ -9,13 +8,18 @@ import { DataService } from '../data.service';
 })
 export class HomeComponent implements OnInit {
   films$: any;
+  selected: Object;
 
   constructor(private dataService: DataService ) { }
 
   ngOnInit() {
     return this.dataService.getFilm().subscribe(res => {
-      let films = res.results;
+      let films = res["results"];
       this.films$ = films;
     }); 
+  }
+
+  handleClick(film) {
+    this.selected = film;
   }
 }
