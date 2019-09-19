@@ -1,17 +1,12 @@
-import { Component, Input, OnChanges } from '@angular/core';
+import { Component, Input, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-scroll',
   templateUrl: './scroll.component.html',
   styleUrls: ['./scroll.component.css']
 })
-export class ScrollComponent implements OnChanges {
+export class ScrollComponent {
   @Input() selected;
-
-  constructor() {
-  }
-
- ngOnChanges() {
- }
+  @Output() remove = new EventEmitter();
 
 }

@@ -22,8 +22,14 @@ h1 {
   border: none;
   border-radius: 5px;
   box-shadow: 2px 2px 4px #fef;
+  outline: none;
 }
 
 .button:hover {
   cursor: pointer;
+  background-color: gold;
+}
+
+.button:active {
+  background-color: gold;
 }

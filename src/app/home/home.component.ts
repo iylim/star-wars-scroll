@@ -22,4 +22,8 @@ export class HomeComponent implements OnInit {
   handleClick(film) {
     this.selected = film;
   }
+
+  remove() {
+    this.selected = '';
+  }
 }
